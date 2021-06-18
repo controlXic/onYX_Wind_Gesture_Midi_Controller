@@ -45,10 +45,12 @@ OnYX is strongly inspired by the “Beat Jazz” created by Onyx Ashanti and pre
 We have retaken that concept, and we have turned it into a MIDI controller compatible with any DAW and operating system, and totally reconfigurable thanks to MIDI mapping to adapt to the needs of each one.
 
 We chose the name OnYX with two intentions:
-Honor to the creator of the original idea, Onyx Ashanti.
-Point out the most characteristic element of this controller, the gyroscopes: “Turn On the Y and X axes”
+
+1) Honor to the creator of the original idea, Onyx Ashanti.
+2) Point out the most characteristic element of this controller, the gyroscopes: “Turn On the Y and X axes”
 
 ### More information
 If you want to know more details and follow the evolution of this project, we invite you to follow us on Instagram, Youtube and Facebook: @onyxmidiinstrument
+
 
 Joel Sempere & Josep Puig
