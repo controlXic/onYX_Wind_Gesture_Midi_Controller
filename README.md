@@ -53,4 +53,3 @@ We chose the name OnYX with two intentions:
 If you want to know more details and follow the evolution of this project, we invite you to follow us on Instagram, Youtube and Facebook: @onyxmidiinstrument
 
 
-Joel Sempere & Josep Puig
