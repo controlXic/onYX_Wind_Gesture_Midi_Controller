@@ -3,7 +3,7 @@
 
 ### Full Function Description:
 
-OnYX is a highly versatile and ergonomic MIDI controller that combines the functionalities of wind controllers, pad controllers, and gesture controllers.
+OnYX is a highly versatile and ergonomic MIDI controller that combines the functionalities of wind controllers, pad controllers and gesture controllers.
 
 It consists of 4 pieces:
 
