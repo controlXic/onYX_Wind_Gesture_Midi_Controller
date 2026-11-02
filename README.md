@@ -50,6 +50,6 @@ We chose the name OnYX with two intentions:
 2) Point out the most characteristic element of this controller, the gyroscopes: “Turn On the Y and X axes”
 
 ### More information
-If you want to know more details and follow the evolution of this project, we invite you to follow us on Instagram, Youtube and Facebook: @onyxmidiinstrument
+If you want to know more details and follow the evolution of this project, we invite you to follow us on Instagram: @controlxic
 
 
