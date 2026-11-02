@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "onyxMandosV3_Dreta-rescue")(type "KiCad")(uri "${KIPRJMOD}/onyxMandosV3_Dreta-rescue.kicad_sym")(options "")(descr ""))
+)

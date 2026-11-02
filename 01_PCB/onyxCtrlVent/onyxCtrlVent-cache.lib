@@ -1,0 +1,273 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# CLM1C-WKW-CWbXb453_CLM1C-WKW-CWbXb453
+#
+DEF CLM1C-WKW-CWbXb453_CLM1C-WKW-CWbXb453 LED 0 30 Y Y 1 F N
+F0 "LED" 500 350 50 H V L BNN
+F1 "CLM1C-WKW-CWbXb453_CLM1C-WKW-CWbXb453" 500 250 50 H V L BNN
+F2 "LEDM3528X205N" 500 150 50 H I L BNN
+F3 "https://www.mouser.co.uk/datasheet/2/90/CLM1CWKW_879_-1111128.pdf" 500 50 50 H I L BNN
+F4 "Standard LEDs - SMD White SMD" 500 -50 50 H I L BNN "Description"
+F5 "2.05" 500 -150 50 H I L BNN "Height"
+F6 "Wolfspeed" 500 -250 50 H I L BNN "Manufacturer_Name"
+F7 "CLM1C-WKW-CWbXb453" 500 -350 50 H I L BNN "Manufacturer_Part_Number"
+F8 "941-CLM1CWKWCWBXB453" 500 -450 50 H I L BNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Cree-LED/CLM1C-WKW-CWbXb453?qs=ua4hIysp8dK1ZjpemLQUrQ%3D%3D" 500 -550 50 H I L BNN "Mouser Price/Stock"
+F10 "CLM1C-WKW-CWBXB453" 500 -650 50 H I L BNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/clm1c-wkw-cwbxb453/cree" 500 -750 50 H I L BNN "Arrow Price/Stock"
+DRAW
+P 2 0 1 6 100 0 200 0 N
+P 2 0 1 6 200 100 200 -100 N
+P 2 0 1 6 250 100 150 200 N
+P 2 0 1 6 350 100 250 200 N
+P 2 0 1 6 400 0 500 0 N
+P 4 0 1 10 200 0 400 100 400 -100 200 0 F
+P 4 0 1 10 210 170 180 140 150 200 210 170 F
+P 4 0 1 10 310 170 280 140 250 200 310 170 F
+X ~ 1 0 0 100 R 50 50 0 0 W
+X ~ 2 600 0 100 L 50 50 0 0 W
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x01_Male
+#
+DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x01_Male" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x02_Male
+#
+DEF Connector_Conn_01x02_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x02_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+X Pin_2 2 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x03_Male
+#
+DEF Connector_Conn_01x03_Male J 0 40 Y N 1 F N
+F0 "J" 0 200 50 H V C CNN
+F1 "Connector_Conn_01x03_Male" 0 -200 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+X Pin_1 1 200 100 150 L 50 50 1 1 P
+X Pin_2 2 200 0 150 L 50 50 1 1 P
+X Pin_3 3 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x15_Male
+#
+DEF Connector_Conn_01x15_Male J 0 40 Y N 1 F N
+F0 "J" 0 800 50 H V C CNN
+F1 "Connector_Conn_01x15_Male" 0 -800 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*_1x??_*
+$ENDFPLIST
+DRAW
+S 34 -695 0 -705 1 1 6 F
+S 34 -595 0 -605 1 1 6 F
+S 34 -495 0 -505 1 1 6 F
+S 34 -395 0 -405 1 1 6 F
+S 34 -295 0 -305 1 1 6 F
+S 34 -195 0 -205 1 1 6 F
+S 34 -95 0 -105 1 1 6 F
+S 34 5 0 -5 1 1 6 F
+S 34 105 0 95 1 1 6 F
+S 34 205 0 195 1 1 6 F
+S 34 305 0 295 1 1 6 F
+S 34 405 0 395 1 1 6 F
+S 34 505 0 495 1 1 6 F
+S 34 605 0 595 1 1 6 F
+S 34 705 0 695 1 1 6 F
+P 2 1 1 6 50 -700 34 -700 N
+P 2 1 1 6 50 -600 34 -600 N
+P 2 1 1 6 50 -500 34 -500 N
+P 2 1 1 6 50 -400 34 -400 N
+P 2 1 1 6 50 -300 34 -300 N
+P 2 1 1 6 50 -200 34 -200 N
+P 2 1 1 6 50 -100 34 -100 N
+P 2 1 1 6 50 0 34 0 N
+P 2 1 1 6 50 100 34 100 N
+P 2 1 1 6 50 200 34 200 N
+P 2 1 1 6 50 300 34 300 N
+P 2 1 1 6 50 400 34 400 N
+P 2 1 1 6 50 500 34 500 N
+P 2 1 1 6 50 600 34 600 N
+P 2 1 1 6 50 700 34 700 N
+X Pin_1 1 200 700 150 L 50 50 1 1 P
+X Pin_10 10 200 -200 150 L 50 50 1 1 P
+X Pin_11 11 200 -300 150 L 50 50 1 1 P
+X Pin_12 12 200 -400 150 L 50 50 1 1 P
+X Pin_13 13 200 -500 150 L 50 50 1 1 P
+X Pin_14 14 200 -600 150 L 50 50 1 1 P
+X Pin_15 15 200 -700 150 L 50 50 1 1 P
+X Pin_2 2 200 600 150 L 50 50 1 1 P
+X Pin_3 3 200 500 150 L 50 50 1 1 P
+X Pin_4 4 200 400 150 L 50 50 1 1 P
+X Pin_5 5 200 300 150 L 50 50 1 1 P
+X Pin_6 6 200 200 150 L 50 50 1 1 P
+X Pin_7 7 200 100 150 L 50 50 1 1 P
+X Pin_8 8 200 0 150 L 50 50 1 1 P
+X Pin_9 9 200 -100 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_C_Small
+#
+DEF Device_C_Small C 0 10 N N 1 F N
+F0 "C" 10 70 50 H V L CNN
+F1 "Device_C_Small" 10 -80 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ C_*
+$ENDFPLIST
+DRAW
+P 2 0 1 13 -60 -20 60 -20 N
+P 2 0 1 12 -60 20 60 20 N
+X ~ 1 0 100 80 D 50 50 1 1 P
+X ~ 2 0 -100 80 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# Device_R_Small
+#
+DEF Device_R_Small R 0 10 N N 1 F N
+F0 "R" 30 20 50 H V L CNN
+F1 "Device_R_Small" 30 -40 50 H V L CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ R_*
+$ENDFPLIST
+DRAW
+S -30 70 30 -70 0 1 8 N
+X ~ 1 0 100 30 D 50 50 1 1 P
+X ~ 2 0 -100 30 U 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+# SI2312CDS-T1-BE3_SI2312CDS-T1-BE3
+#
+DEF SI2312CDS-T1-BE3_SI2312CDS-T1-BE3 Q 0 30 Y Y 1 F N
+F0 "Q" 450 150 50 H V L CNN
+F1 "SI2312CDS-T1-BE3_SI2312CDS-T1-BE3" 450 50 50 H V L CNN
+F2 "SOT95P237X112-3N" 450 -50 50 H I L CNN
+F3 "https://www.vishay.com/docs/65900/si2312cd.pdf" 450 -150 50 H I L CNN
+F4 "MOSFET N-CHANNEL 20-V (D-S)" 450 -250 50 H I L CNN "Description"
+F5 "1.12" 450 -350 50 H I L CNN "Height"
+F6 "Vishay" 450 -450 50 H I L CNN "Manufacturer_Name"
+F7 "SI2312CDS-T1-BE3" 450 -550 50 H I L CNN "Manufacturer_Part_Number"
+F8 "78-SI2312CDS-T1-BE3" 450 -650 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SI2312CDS-T1-BE3?qs=CiayqK2gdcJDWhcnuXp08Q%3D%3D" 450 -750 50 H I L CNN "Mouser Price/Stock"
+F10 "SI2312CDS-T1-BE3" 450 -850 50 H I L CNN "Arrow Part Number"
+F11 "https://www.arrow.com/en/products/si2312cds-t1-be3/vishay?region=nac" 450 -950 50 H I L CNN "Arrow Price/Stock"
+DRAW
+C 250 100 150 0 1 10 N
+P 2 0 1 6 230 -20 230 20 N
+P 2 0 1 6 230 0 300 0 N
+P 2 0 1 6 230 80 230 120 N
+P 2 0 1 6 230 220 230 180 N
+P 2 0 1 6 300 100 230 100 N
+P 2 0 1 6 300 100 300 -100 N
+P 2 0 1 6 300 200 230 200 N
+P 2 0 1 6 300 200 300 300 N
+P 3 0 1 6 100 0 200 0 200 200 N
+P 4 0 1 10 230 100 270 120 270 80 230 100 F
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 300 -200 100 U 50 50 0 0 P
+X ~ 3 300 400 100 D 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# onyxCtrlVent-rescue_MHS12204-MHS12204-onyxPcb-rescue
+#
+DEF onyxCtrlVent-rescue_MHS12204-MHS12204-onyxPcb-rescue S 0 30 Y Y 1 F N
+F0 "S" 750 300 50 H V L CNN
+F1 "onyxCtrlVent-rescue_MHS12204-MHS12204-onyxPcb-rescue" 750 200 50 H V L CNN
+F2 "MHS12204" 750 100 50 H I L CNN
+F3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825255&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1825255-1" 750 0 50 H I L CNN
+F4 "Switch; Slide; 2 position; Sigle Pole-Double Throw" 750 -100 50 H I L CNN "Description"
+F5 "12" 750 -200 50 H I L CNN "Height"
+F6 "TE Connectivity" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MHS12204" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MHS12204" 750 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/mhs12204/te-connectivity" 750 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "506-MHS12204" 750 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Alcoswitch/MHS12204?qs=x%2FgbKjZ2T%2FPUluB%2FWhqq0Q%3D%3D" 750 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -300 200 -300 200 100 N
+X 1 1 0 0 200 R 50 50 0 0 P
+X 2 2 0 -100 200 R 50 50 0 0 P
+X 3 3 0 -200 200 R 50 50 0 0 P
+X MH1 MH1 900 0 200 L 50 50 0 0 P
+X MH2 MH2 900 -100 200 L 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# onyxCtrlVent-rescue_MPXV7002DPT1-MPXV7002DPT1-onyxPcb-rescue
+#
+DEF onyxCtrlVent-rescue_MPXV7002DPT1-MPXV7002DPT1-onyxPcb-rescue IC 0 30 Y Y 1 F N
+F0 "IC" 950 300 50 H V L CNN
+F1 "onyxCtrlVent-rescue_MPXV7002DPT1-MPXV7002DPT1-onyxPcb-rescue" 950 200 50 H V L CNN
+F2 "MPXV7002DPT1" 950 100 50 H I L CNN
+F3 "http://www.nxp.com/docs/en/data-sheet/MPXV7002.pdf" 950 0 50 H I L CNN
+F4 "NXP - MPXV7002DPT1 - PRESSURE SENSOR, 2 TO -2KPA, SOP-8" 950 -100 50 H I L CNN "Description"
+F5 "9.906" 950 -200 50 H I L CNN "Height"
+F6 "NXP" 950 -300 50 H I L CNN "Manufacturer_Name"
+F7 "MPXV7002DPT1" 950 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "MPXV7002DPT1" 950 -500 50 H I L CNN "Arrow Part Number"
+F9 "https://www.arrow.com/en/products/mpxv7002dpt1/nxp-semiconductors" 950 -600 50 H I L CNN "Arrow Price/Stock"
+F10 "841-MPXV7002DPT1" 950 -700 50 H I L CNN "Mouser Part Number"
+F11 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MPXV7002DPT1?qs=r8OyiFxb6RfM%2FubY0Rw%2FtA%3D%3D" 950 -800 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 900 100 900 -400 200 -400 200 100 N
+X NC_1 1 1100 -300 200 L 50 50 0 0 P
+X VS 2 1100 -200 200 L 50 50 0 0 P
+X GND 3 1100 -100 200 L 50 50 0 0 P
+X VOUT 4 1100 0 200 L 50 50 0 0 P
+X NC_2 5 0 0 200 R 50 50 0 0 P
+X NC_3 6 0 -100 200 R 50 50 0 0 P
+X NC_4 7 0 -200 200 R 50 50 0 0 P
+X NC_5 8 0 -300 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+#End Library

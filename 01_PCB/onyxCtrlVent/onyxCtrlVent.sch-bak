@@ -1,0 +1,434 @@
+EESchema Schematic File Version 4
+LIBS:onyxCtrlVent-cache
+LIBS:onyxMandosV3_Dreta-cache
+EELAYER 30 0
+EELAYER END
+$Descr A4 11693 8268
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L Connector:Conn_01x15_Male J11
+U 1 1 5FD354BD
+P 9525 2500
+F 0 "J11" H 9375 3500 50  0000 C CNN
+F 1 "Conn_01x15_Male" H 9625 3400 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 9525 2500 50  0001 C CNN
+F 3 "~" H 9525 2500 50  0001 C CNN
+	1    9525 2500
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x15_Male J1
+U 1 1 5FD354C3
+P 8675 2500
+F 0 "J1" H 8975 3500 50  0000 R CNN
+F 1 "Conn_01x15_Male" H 9025 3400 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x15_P2.54mm_Vertical" H 8675 2500 50  0001 C CNN
+F 3 "~" H 8675 2500 50  0001 C CNN
+	1    8675 2500
+	-1   0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J6
+U 1 1 5FD354C9
+P 3225 2075
+F 0 "J6" H 2375 2075 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2775 2075 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3225 2075 50  0001 C CNN
+F 3 "~" H 3225 2075 50  0001 C CNN
+	1    3225 2075
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 5FD354CF
+P 3225 1775
+F 0 "J5" H 2375 1775 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 2775 1775 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 3225 1775 50  0001 C CNN
+F 3 "~" H 3225 1775 50  0001 C CNN
+	1    3225 1775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x03_Male J18
+U 1 1 5FD354E1
+P 7175 1850
+F 0 "J18" H 7475 2200 50  0000 C CNN
+F 1 "Conn_01x03_Male" H 7275 2100 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x03_P2.54mm_Vertical" H 7175 1850 50  0001 C CNN
+F 3 "~" H 7175 1850 50  0001 C CNN
+	1    7175 1850
+	-1   0    0    -1  
+$EndComp
+$Comp
+L onyxCtrlVent-rescue:MHS12204-MHS12204-onyxPcb-rescue S1
+U 1 1 5FD35501
+P 4800 1675
+F 0 "S1" H 5250 1940 50  0000 C CNN
+F 1 "MHS12204" H 5250 1849 50  0000 C CNN
+F 2 "KiCadMHS:MHS12204" H 5550 1775 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825255&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1825255-1" H 5550 1675 50  0001 L CNN
+F 4 "Switch; Slide; 2 position; Sigle Pole-Double Throw" H 5550 1575 50  0001 L CNN "Description"
+F 5 "12" H 5550 1475 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 5550 1375 50  0001 L CNN "Manufacturer_Name"
+F 7 "MHS12204" H 5550 1275 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MHS12204" H 5550 1175 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mhs12204/te-connectivity" H 5550 1075 50  0001 L CNN "Arrow Price/Stock"
+F 10 "506-MHS12204" H 5550 975 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Alcoswitch/MHS12204?qs=x%2FgbKjZ2T%2FPUluB%2FWhqq0Q%3D%3D" H 5550 875 50  0001 L CNN "Mouser Price/Stock"
+	1    4800 1675
+	1    0    0    -1  
+$EndComp
+Text Notes 9025 1800 0    62   ~ 0
+USB
+Text Label 8475 1800 2    50   ~ 0
+3V3_M
+Text Label 9725 2900 0    50   ~ 0
+D34_M
+Text Label 3425 1875 0    50   ~ 0
+B-M
+Text Label 3425 2175 0    50   ~ 0
+VOUT_M
+Text Label 4800 1875 2    50   ~ 0
+VIN_STEPUP_M
+Text Label 6975 1950 2    50   ~ 0
+5V_M
+NoConn ~ 5700 1775
+NoConn ~ 5700 1675
+NoConn ~ 4800 1675
+Text Label 3425 2075 0    50   ~ 0
+B+M
+Text Label 3425 1475 0    50   ~ 0
+VUSB_M
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 5FD354DB
+P 3225 1475
+F 0 "J3" H 2375 1475 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2775 1475 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3225 1475 50  0001 C CNN
+F 3 "~" H 3225 1475 50  0001 C CNN
+	1    3225 1475
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J4
+U 1 1 5FD354D5
+P 3225 1575
+F 0 "J4" H 2375 1575 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 2775 1575 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x01_P2.54mm_Vertical" H 3225 1575 50  0001 C CNN
+F 3 "~" H 3225 1575 50  0001 C CNN
+	1    3225 1575
+	1    0    0    -1  
+$EndComp
+Text Label 9725 1900 0    50   ~ 0
+GND_M
+Text Label 8475 1900 2    50   ~ 0
+GND_M
+Text Label 3425 1575 0    50   ~ 0
+GND_M
+Text Label 3425 1775 0    50   ~ 0
+GND_M
+Text Label 6975 1850 2    50   ~ 0
+GND_M
+Text Label 4800 1775 2    50   ~ 0
+VOUT_M
+Text Label 6975 1750 2    50   ~ 0
+VIN_STEPUP_M
+Text Label 9725 1800 0    50   ~ 0
+5V_M
+NoConn ~ 8475 2000
+NoConn ~ 8475 2100
+NoConn ~ 8475 2200
+NoConn ~ 8475 2300
+NoConn ~ 8475 2400
+NoConn ~ 8475 2500
+NoConn ~ 8475 2600
+NoConn ~ 8475 2700
+NoConn ~ 8475 2800
+NoConn ~ 8475 2900
+NoConn ~ 8475 3000
+NoConn ~ 8475 3100
+NoConn ~ 8475 3200
+NoConn ~ 9725 3200
+NoConn ~ 9725 3100
+NoConn ~ 9725 3000
+NoConn ~ 9725 2800
+NoConn ~ 9725 2600
+NoConn ~ 9725 2500
+NoConn ~ 9725 2400
+NoConn ~ 9725 2300
+NoConn ~ 9725 2200
+NoConn ~ 9725 2100
+NoConn ~ 9725 2000
+Text Label 9725 2700 0    50   ~ 0
+D32_LED_M
+Text Notes 8950 1200 0    62   ~ 0
+ESP32
+$Comp
+L Connector:Conn_01x02_Male J42
+U 1 1 5FD8D0DB
+P 1300 1650
+F 0 "J42" H 1650 1900 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 1400 1800 50  0000 C CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x02_P2.54mm_Vertical" H 1300 1650 50  0001 C CNN
+F 3 "~" H 1300 1650 50  0001 C CNN
+	1    1300 1650
+	-1   0    0    -1  
+$EndComp
+Text Label 1100 1650 2    50   ~ 0
+B-M
+Text Label 1100 1750 2    50   ~ 0
+B+M
+Text Notes 6550 1200 0    62   ~ 0
+StepUp Voltaje
+Text Notes 4650 1200 0    62   ~ 0
+Interruptor General
+Text Notes 2550 1200 0    62   ~ 0
+Carregador Bateria
+Text Notes 1000 1200 0    62   ~ 0
+Bateria
+$Comp
+L CLM1C-WKW-CWbXb453:CLM1C-WKW-CWbXb453 LED?
+U 1 1 629C2AEC
+P 7325 4175
+F 0 "LED?" H 7625 4542 50  0000 C CNN
+F 1 "CLM1C-WKW-CWbXb453" H 7625 4451 50  0000 C CNN
+F 2 "CLM1C-WKW-CWbXb453:LEDM3528X205N" H 7825 4325 50  0001 L BNN
+F 3 "https://www.mouser.co.uk/datasheet/2/90/CLM1CWKW_879_-1111128.pdf" H 7825 4225 50  0001 L BNN
+F 4 "Standard LEDs - SMD White SMD" H 7825 4125 50  0001 L BNN "Description"
+F 5 "2.05" H 7825 4025 50  0001 L BNN "Height"
+F 6 "Wolfspeed" H 7825 3925 50  0001 L BNN "Manufacturer_Name"
+F 7 "CLM1C-WKW-CWbXb453" H 7825 3825 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "941-CLM1CWKWCWBXB453" H 7825 3725 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Cree-LED/CLM1C-WKW-CWbXb453?qs=ua4hIysp8dK1ZjpemLQUrQ%3D%3D" H 7825 3625 50  0001 L BNN "Mouser Price/Stock"
+F 10 "CLM1C-WKW-CWBXB453" H 7825 3525 50  0001 L BNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/clm1c-wkw-cwbxb453/cree" H 7825 3425 50  0001 L BNN "Arrow Price/Stock"
+	1    7325 4175
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 629C2AF2
+P 8225 4175
+F 0 "R?" V 8175 3975 50  0000 L CNN
+F 1 "1k" V 8175 4275 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8225 4175 50  0001 C CNN
+F 3 "~" H 8225 4175 50  0001 C CNN
+	1    8225 4175
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	8125 4175 7925 4175
+Wire Wire Line
+	8325 4175 8575 4175
+Wire Wire Line
+	7075 4175 7325 4175
+$Comp
+L SI2312CDS-T1-BE3:SI2312CDS-T1-BE3 Q?
+U 1 1 6295A486
+P 6775 4775
+F 0 "Q?" H 7205 4921 50  0000 L CNN
+F 1 "SI2312CDS-T1-BE3" H 7205 4830 50  0000 L CNN
+F 2 "SI2312CDS-T1-BE3:SOT95P237X112-3N" H 7225 4725 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/65900/si2312cd.pdf" H 7225 4625 50  0001 L CNN
+F 4 "MOSFET N-CHANNEL 20-V (D-S)" H 7225 4525 50  0001 L CNN "Description"
+F 5 "1.12" H 7225 4425 50  0001 L CNN "Height"
+F 6 "Vishay" H 7225 4325 50  0001 L CNN "Manufacturer_Name"
+F 7 "SI2312CDS-T1-BE3" H 7225 4225 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "78-SI2312CDS-T1-BE3" H 7225 4125 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SI2312CDS-T1-BE3?qs=CiayqK2gdcJDWhcnuXp08Q%3D%3D" H 7225 4025 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SI2312CDS-T1-BE3" H 7225 3925 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/si2312cds-t1-be3/vishay?region=nac" H 7225 3825 50  0001 L CNN "Arrow Price/Stock"
+	1    6775 4775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R?
+U 1 1 6295C84C
+P 6475 5025
+F 0 "R?" H 6325 4925 50  0000 L CNN
+F 1 "10k" H 6275 5025 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6475 5025 50  0001 C CNN
+F 3 "~" H 6475 5025 50  0001 C CNN
+	1    6475 5025
+	-1   0    0    1   
+$EndComp
+Wire Wire Line
+	7075 4175 7075 4375
+Wire Wire Line
+	6775 4775 6475 4775
+Wire Wire Line
+	6475 4925 6475 4775
+Connection ~ 6475 4775
+Wire Wire Line
+	6475 4775 6175 4775
+Wire Wire Line
+	7075 5475 7075 5225
+Wire Wire Line
+	6475 5125 6475 5225
+Wire Wire Line
+	6475 5225 7075 5225
+Connection ~ 7075 5225
+Wire Wire Line
+	7075 5225 7075 4975
+Text Label 8575 4175 0    50   ~ 0
+5V_M
+Text Notes 6925 3675 0    79   ~ 0
+LED-W
+Connection ~ 4575 3625
+Wire Wire Line
+	4075 3625 4575 3625
+Text Notes 1025 3125 0    62   ~ 0
+PRESSURE_SENSOR
+Wire Wire Line
+	2675 3625 2175 3625
+Connection ~ 3225 3625
+Wire Wire Line
+	2875 3625 3225 3625
+$Comp
+L Device:R_Small R1
+U 1 1 5FDB7C91
+P 2775 3625
+F 0 "R1" V 2579 3625 50  0000 C CNN
+F 1 "750R" V 2670 3625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2775 3625 50  0001 C CNN
+F 3 "~" H 2775 3625 50  0001 C CNN
+	1    2775 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:R_Small R3
+U 1 1 5FDB3BF7
+P 4775 3625
+F 0 "R3" V 4579 3625 50  0000 C CNN
+F 1 "10k" V 4670 3625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 4775 3625 50  0001 C CNN
+F 3 "~" H 4775 3625 50  0001 C CNN
+	1    4775 3625
+	0    1    1    0   
+$EndComp
+$Comp
+L Device:C_Small C3
+U 1 1 5FDB2C51
+P 3225 3425
+F 0 "C3" H 3317 3471 50  0000 L CNN
+F 1 "0.33uF" H 3317 3380 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3225 3425 50  0001 C CNN
+F 3 "~" H 3225 3425 50  0001 C CNN
+	1    3225 3425
+	1    0    0    -1  
+$EndComp
+Text Label 3375 3825 0    50   ~ 0
+5V_M
+Connection ~ 2975 3825
+Wire Wire Line
+	2975 3825 3375 3825
+Text Label 4675 3825 0    50   ~ 0
+D34_M
+Wire Wire Line
+	3225 3625 3875 3625
+Wire Wire Line
+	3225 3525 3225 3625
+Wire Wire Line
+	3225 3325 3225 3225
+Wire Wire Line
+	4575 3625 4675 3625
+Wire Wire Line
+	4575 3825 4675 3825
+Wire Wire Line
+	4575 3625 4575 3825
+Text Label 5025 3625 0    50   ~ 0
+GND_M
+Wire Wire Line
+	4875 3625 5025 3625
+$Comp
+L Device:R_Small R2
+U 1 1 5FD60554
+P 3975 3625
+F 0 "R2" V 3779 3625 50  0000 C CNN
+F 1 "4k7" V 3870 3625 50  0000 C CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 3975 3625 50  0001 C CNN
+F 3 "~" H 3975 3625 50  0001 C CNN
+	1    3975 3625
+	0    1    1    0   
+$EndComp
+Text Label 3225 3225 1    50   ~ 0
+GND_M
+Text Label 2175 3725 0    50   ~ 0
+GND_M
+Text Label 2975 4225 3    50   ~ 0
+GND_M
+Text Label 2425 4225 3    50   ~ 0
+GND_M
+Wire Wire Line
+	2975 4025 2975 4225
+Wire Wire Line
+	2425 4025 2425 4225
+Connection ~ 2425 3825
+Wire Wire Line
+	2175 3825 2425 3825
+Wire Wire Line
+	2975 3825 2425 3825
+$Comp
+L Device:C_Small C1
+U 1 1 5FD45FA1
+P 2975 3925
+F 0 "C1" H 3067 3971 50  0000 L CNN
+F 1 "1uF" H 3067 3880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2975 3925 50  0001 C CNN
+F 3 "~" H 2975 3925 50  0001 C CNN
+	1    2975 3925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C2
+U 1 1 5FD44273
+P 2425 3925
+F 0 "C2" H 2517 3971 50  0000 L CNN
+F 1 "0.01uF" H 2517 3880 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 2425 3925 50  0001 C CNN
+F 3 "~" H 2425 3925 50  0001 C CNN
+	1    2425 3925
+	1    0    0    -1  
+$EndComp
+NoConn ~ 1075 3625
+NoConn ~ 1075 3725
+NoConn ~ 1075 3825
+NoConn ~ 1075 3925
+NoConn ~ 2175 3925
+$Comp
+L onyxCtrlVent-rescue:MPXV7002DPT1-MPXV7002DPT1-onyxPcb-rescue IC1
+U 1 1 5FD407EB
+P 1075 3625
+F 0 "IC1" H 1625 3890 50  0000 C CNN
+F 1 "MPXV7002DPT1" H 1625 3799 50  0000 C CNN
+F 2 "KiCadNXP:MPXV7002DPT1" H 2025 3725 50  0001 L CNN
+F 3 "http://www.nxp.com/docs/en/data-sheet/MPXV7002.pdf" H 2025 3625 50  0001 L CNN
+F 4 "NXP - MPXV7002DPT1 - PRESSURE SENSOR, 2 TO -2KPA, SOP-8" H 2025 3525 50  0001 L CNN "Description"
+F 5 "9.906" H 2025 3425 50  0001 L CNN "Height"
+F 6 "NXP" H 2025 3325 50  0001 L CNN "Manufacturer_Name"
+F 7 "MPXV7002DPT1" H 2025 3225 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MPXV7002DPT1" H 2025 3125 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mpxv7002dpt1/nxp-semiconductors" H 2025 3025 50  0001 L CNN "Arrow Price/Stock"
+F 10 "841-MPXV7002DPT1" H 2025 2925 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/NXP-Semiconductors/MPXV7002DPT1?qs=r8OyiFxb6RfM%2FubY0Rw%2FtA%3D%3D" H 2025 2825 50  0001 L CNN "Mouser Price/Stock"
+	1    1075 3625
+	1    0    0    -1  
+$EndComp
+Text Label 6175 4775 2    50   ~ 0
+D32_LED_M
+Text Label 7075 5475 0    50   ~ 0
+GND_M
+$EndSCHEMATC

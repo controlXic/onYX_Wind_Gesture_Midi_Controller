@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "onyxPcb-rescue")(type "Legacy")(uri "${KIPRJMOD}/onyxPcb-rescue.lib")(options "")(descr ""))
+  (lib (name "onyxCtrlVent-rescue")(type "KiCad")(uri "${KIPRJMOD}/onyxCtrlVent-rescue.kicad_sym")(options "")(descr ""))
+)

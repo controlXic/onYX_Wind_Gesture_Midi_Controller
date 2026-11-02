@@ -1,0 +1,895 @@
+EESchema Schematic File Version 4
+LIBS:onyxMandosV3-cache
+EELAYER 30 0
+EELAYER END
+$Descr A3 16535 11693
+encoding utf-8
+Sheet 1 1
+Title ""
+Date ""
+Rev ""
+Comp ""
+Comment1 ""
+Comment2 ""
+Comment3 ""
+Comment4 ""
+$EndDescr
+$Comp
+L 200529-0060:200529-0060 J9
+U 1 1 6277CFB0
+P 11675 6775
+F 0 "J9" H 12125 7040 50  0000 C CNN
+F 1 "200529-0060" H 12125 6949 50  0000 C CNN
+F 2 "200529-0060:2005290060" H 12425 6875 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/200529-0060.pdf" H 12425 6775 50  0001 L CNN
+F 4 "MOLEX - 200529-0060 - CONNECTOR, FFC/FPC, 6POS, 1ROW, 1MM" H 12425 6675 50  0001 L CNN "Description"
+F 5 "2.1" H 12425 6575 50  0001 L CNN "Height"
+F 6 "Molex" H 12425 6475 50  0001 L CNN "Manufacturer_Name"
+F 7 "200529-0060" H 12425 6375 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "538-200529-0060" H 12425 6275 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Molex/200529-0060?qs=IvjI65BR3TVInXqKXqpjBg%3D%3D" H 12425 6175 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 12425 6075 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 12425 5975 50  0001 L CNN "Arrow Price/Stock"
+	1    11675 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L NCV1117ST33T3G:NCV1117ST33T3G IC1
+U 1 1 62780993
+P 2125 7125
+F 0 "IC1" H 2875 7390 50  0000 C CNN
+F 1 "NCV1117ST33T3G" H 2875 7299 50  0000 C CNN
+F 2 "NCV1117ST33T3G:SOT230P700X180-4N" H 3475 7225 50  0001 L CNN
+F 3 "http://www.onsemi.com/pub/Collateral/NCP1117-D.PDF" H 3475 7125 50  0001 L CNN
+F 4 "ON SEMICONDUCTOR - NCV1117ST33T3G - Fixed LDO Voltage Regulator, 20V in, 1.07V Dropout, 3.3V/1A out, SOT-223-3" H 3475 7025 50  0001 L CNN "Description"
+F 5 "1.8" H 3475 6925 50  0001 L CNN "Height"
+F 6 "onsemi" H 3475 6825 50  0001 L CNN "Manufacturer_Name"
+F 7 "NCV1117ST33T3G" H 3475 6725 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "863-NCV1117ST33T3G" H 3475 6625 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/onsemi/NCV1117ST33T3G?qs=8sOby8ZxZLHgqg5CFzeqiA%3D%3D" H 3475 6525 50  0001 L CNN "Mouser Price/Stock"
+F 10 "NCV1117ST33T3G" H 3475 6425 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/ncv1117st33t3g/on-semiconductor?region=nac" H 3475 6325 50  0001 L CNN "Arrow Price/Stock"
+	1    2125 7125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J2
+U 1 1 62782F62
+P 2875 1575
+F 0 "J2" H 2725 1825 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 3025 1725 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 2875 1575 50  0001 C CNN
+F 3 "~" H 2875 1575 50  0001 C CNN
+	1    2875 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x01_Male J3
+U 1 1 62783AE1
+P 2875 2125
+F 0 "J3" H 2725 2375 50  0000 C CNN
+F 1 "Conn_01x01_Male" H 3025 2275 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x01_P2.54mm_Vertical" H 2875 2125 50  0001 C CNN
+F 3 "~" H 2875 2125 50  0001 C CNN
+	1    2875 2125
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J4
+U 1 1 62783F22
+P 3575 1575
+F 0 "J4" H 3575 1825 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3875 1725 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3575 1575 50  0001 C CNN
+F 3 "~" H 3575 1575 50  0001 C CNN
+	1    3575 1575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Connector:Conn_01x02_Male J5
+U 1 1 6278489D
+P 3575 2025
+F 0 "J5" H 3575 2275 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 3875 2175 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 3575 2025 50  0001 C CNN
+F 3 "~" H 3575 2025 50  0001 C CNN
+	1    3575 2025
+	1    0    0    -1  
+$EndComp
+$Comp
+L MHS12204:MHS12204 S1
+U 1 1 62784E15
+P 2425 3275
+F 0 "S1" H 2875 3540 50  0000 C CNN
+F 1 "MHS12204" H 2875 3449 50  0000 C CNN
+F 2 "MHS12204:MHS12204" H 3175 3375 50  0001 L CNN
+F 3 "https://www.te.com/commerce/DocumentDelivery/DDEController?Action=srchrtrv&DocNm=1825255&DocType=Customer+Drawing&DocLang=English&DocFormat=pdf&PartCntxt=1825255-1" H 3175 3275 50  0001 L CNN
+F 4 "Switch; Slide; 2 position; Sigle Pole-Double Throw" H 3175 3175 50  0001 L CNN "Description"
+F 5 "12" H 3175 3075 50  0001 L CNN "Height"
+F 6 "TE Connectivity" H 3175 2975 50  0001 L CNN "Manufacturer_Name"
+F 7 "MHS12204" H 3175 2875 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "MHS12204" H 3175 2775 50  0001 L CNN "Arrow Part Number"
+F 9 "https://www.arrow.com/en/products/mhs12204/te-connectivity" H 3175 2675 50  0001 L CNN "Arrow Price/Stock"
+F 10 "506-MHS12204" H 3175 2575 50  0001 L CNN "Mouser Part Number"
+F 11 "https://www.mouser.co.uk/ProductDetail/TE-Connectivity-Alcoswitch/MHS12204?qs=x%2FgbKjZ2T%2FPUluB%2FWhqq0Q%3D%3D" H 3175 2475 50  0001 L CNN "Mouser Price/Stock"
+	1    2425 3275
+	1    0    0    -1  
+$EndComp
+$Comp
+L 200529-0060:200529-0060 J10
+U 1 1 6278A2E6
+P 13625 6775
+F 0 "J10" H 14075 7040 50  0000 C CNN
+F 1 "200529-0060" H 14075 6949 50  0000 C CNN
+F 2 "200529-0060:2005290060" H 14375 6875 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/200529-0060.pdf" H 14375 6775 50  0001 L CNN
+F 4 "MOLEX - 200529-0060 - CONNECTOR, FFC/FPC, 6POS, 1ROW, 1MM" H 14375 6675 50  0001 L CNN "Description"
+F 5 "2.1" H 14375 6575 50  0001 L CNN "Height"
+F 6 "Molex" H 14375 6475 50  0001 L CNN "Manufacturer_Name"
+F 7 "200529-0060" H 14375 6375 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "538-200529-0060" H 14375 6275 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Molex/200529-0060?qs=IvjI65BR3TVInXqKXqpjBg%3D%3D" H 14375 6175 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 14375 6075 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 14375 5975 50  0001 L CNN "Arrow Price/Stock"
+	1    13625 6775
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:D_Small D1
+U 1 1 6279E862
+P 2875 4425
+F 0 "D1" H 2875 4225 50  0000 C CNN
+F 1 "IN5817" H 2875 4325 50  0000 C CNN
+F 2 "Diode_SMD:D_SMA" V 2875 4425 50  0001 C CNN
+F 3 "~" V 2875 4425 50  0001 C CNN
+	1    2875 4425
+	-1   0    0    1   
+$EndComp
+$Comp
+L Device:L_Small L1
+U 1 1 6279EED0
+P 2225 4825
+F 0 "L1" V 2425 4925 50  0000 C CNN
+F 1 "47uH" V 2325 4825 50  0000 C CNN
+F 2 "Inductor_SMD:L_Bourns_SRN6045TA" H 2225 4825 50  0001 C CNN
+F 3 "~" H 2225 4825 50  0001 C CNN
+	1    2225 4825
+	0    -1   -1   0   
+$EndComp
+$Comp
+L Regulator_Linear:AP1117-50 U1
+U 1 1 627A1B74
+P 2875 4825
+F 0 "U1" H 2875 5067 50  0000 C CNN
+F 1 "ME2108" H 2875 4976 50  0000 C CNN
+F 2 "Package_TO_SOT_SMD:SOT-89-3" H 2875 5025 50  0001 C CNN
+F 3 "http://www.diodes.com/datasheets/AP1117.pdf" H 2975 4575 50  0001 C CNN
+	1    2875 4825
+	1    0    0    -1  
+$EndComp
+Text Label 3075 1575 0    50   ~ 0
+V_USB_R
+Text Label 3075 2125 0    50   ~ 0
+GND_R
+Text Label 11775 2250 0    50   ~ 0
+GND_R
+Text Label 3775 2025 0    50   ~ 0
+-Bat_R
+Text Label 3775 1675 0    50   ~ 0
++Batt_R
+NoConn ~ 2425 3275
+NoConn ~ 3325 3275
+NoConn ~ 3325 3375
+Text Label 2425 3375 2    50   ~ 0
+VOUT_Bat_R
+Text Label 2425 3475 2    50   ~ 0
+VIN_Stepup_R
+Text Label 1975 4825 2    50   ~ 0
+VIN_Stepup_R
+Wire Wire Line
+	3775 2125 3825 2125
+Wire Wire Line
+	3875 2125 3825 2125
+Connection ~ 3825 2125
+Wire Wire Line
+	2325 4825 2475 4825
+Wire Wire Line
+	2775 4425 2475 4425
+Wire Wire Line
+	2475 4425 2475 4825
+Connection ~ 2475 4825
+Wire Wire Line
+	2475 4825 2575 4825
+Wire Wire Line
+	2975 4425 3325 4425
+Wire Wire Line
+	3325 4425 3325 4825
+Wire Wire Line
+	3325 4825 3175 4825
+Wire Wire Line
+	1975 4825 2125 4825
+$Comp
+L power:GNDREF #PWR04
+U 1 1 627A0DE0
+P 2875 5475
+F 0 "#PWR04" H 2875 5225 50  0001 C CNN
+F 1 "GNDREF" H 2880 5302 50  0000 C CNN
+F 2 "" H 2875 5475 50  0001 C CNN
+F 3 "" H 2875 5475 50  0001 C CNN
+	1    2875 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 4825 3575 4825
+Connection ~ 3325 4825
+Text Label 3575 4825 0    50   ~ 0
+5V_R
+Wire Wire Line
+	3325 5125 3325 4825
+$Comp
+L power:GNDREF #PWR05
+U 1 1 627A3EBA
+P 3325 5475
+F 0 "#PWR05" H 3325 5225 50  0001 C CNN
+F 1 "GNDREF" H 3330 5302 50  0000 C CNN
+F 2 "" H 3325 5475 50  0001 C CNN
+F 3 "" H 3325 5475 50  0001 C CNN
+	1    3325 5475
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	3325 5475 3325 5325
+Wire Wire Line
+	2875 5475 2875 5125
+Wire Wire Line
+	3825 7325 3825 7125
+Wire Wire Line
+	3825 7125 3625 7125
+Wire Wire Line
+	3825 7125 4225 7125
+Connection ~ 3825 7125
+Text Label 4225 7125 0    50   ~ 0
+3V3_R
+$Comp
+L power:GNDREF #PWR07
+U 1 1 627A6C4C
+P 3825 7525
+F 0 "#PWR07" H 3825 7275 50  0001 C CNN
+F 1 "GNDREF" H 3830 7352 50  0000 C CNN
+F 2 "" H 3825 7525 50  0001 C CNN
+F 3 "" H 3825 7525 50  0001 C CNN
+	1    3825 7525
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:C_Small C1
+U 1 1 627A7596
+P 1875 7475
+F 0 "C1" H 1967 7521 50  0000 L CNN
+F 1 "10uF" H 1967 7430 50  0000 L CNN
+F 2 "Capacitor_SMD:C_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 1875 7475 50  0001 C CNN
+F 3 "~" H 1875 7475 50  0001 C CNN
+	1    1875 7475
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR01
+U 1 1 627A7BF1
+P 1875 7575
+F 0 "#PWR01" H 1875 7325 50  0001 C CNN
+F 1 "GNDREF" H 1880 7402 50  0000 C CNN
+F 2 "" H 1875 7575 50  0001 C CNN
+F 3 "" H 1875 7575 50  0001 C CNN
+	1    1875 7575
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	2125 7325 1875 7325
+Wire Wire Line
+	1875 7375 1875 7325
+Connection ~ 1875 7325
+Wire Wire Line
+	1875 7325 1725 7325
+$Comp
+L power:GNDREF #PWR02
+U 1 1 627A951B
+P 1975 7125
+F 0 "#PWR02" H 1975 6875 50  0001 C CNN
+F 1 "GNDREF" H 1980 6952 50  0000 C CNN
+F 2 "" H 1975 7125 50  0001 C CNN
+F 3 "" H 1975 7125 50  0001 C CNN
+	1    1975 7125
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	2125 7225 2025 7225
+Wire Wire Line
+	2025 7225 2025 6775
+Wire Wire Line
+	2025 6775 3825 6775
+Wire Wire Line
+	3825 6775 3825 7125
+Wire Wire Line
+	1975 7125 2125 7125
+Text Label 1725 7325 2    50   ~ 0
+5V_R
+Text Label 11775 2150 0    50   ~ 0
+5V_R
+Wire Wire Line
+	11775 2350 12225 2350
+Wire Wire Line
+	11775 2450 12475 2450
+$Comp
+L Device:R_Small R5
+U 1 1 627B2803
+P 12475 2000
+F 0 "R5" H 12534 2046 50  0000 L CNN
+F 1 "4k7" H 12534 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12475 2000 50  0001 C CNN
+F 3 "~" H 12475 2000 50  0001 C CNN
+	1    12475 2000
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R4
+U 1 1 627B30A6
+P 12225 2000
+F 0 "R4" H 12284 2046 50  0000 L CNN
+F 1 "4k7" H 12284 1955 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12225 2000 50  0001 C CNN
+F 3 "~" H 12225 2000 50  0001 C CNN
+	1    12225 2000
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	12225 2100 12225 2350
+Connection ~ 12225 2350
+Wire Wire Line
+	12225 2350 12575 2350
+Wire Wire Line
+	12475 2100 12475 2450
+Connection ~ 12475 2450
+Wire Wire Line
+	12475 2450 12575 2450
+Text Label 12325 1700 0    50   ~ 0
+3V3_R
+Wire Wire Line
+	12325 1700 12325 1800
+Wire Wire Line
+	12325 1800 12475 1800
+Wire Wire Line
+	12475 1800 12475 1900
+Wire Wire Line
+	12225 1900 12225 1800
+Wire Wire Line
+	12225 1800 12325 1800
+Connection ~ 12325 1800
+Text Label 3875 2125 0    50   ~ 0
+GND_R
+$Comp
+L power:GNDREF #PWR06
+U 1 1 6279C6ED
+P 3825 2275
+F 0 "#PWR06" H 3825 2025 50  0001 C CNN
+F 1 "GNDREF" H 3830 2102 50  0000 C CNN
+F 2 "" H 3825 2275 50  0001 C CNN
+F 3 "" H 3825 2275 50  0001 C CNN
+	1    3825 2275
+	1    0    0    -1  
+$EndComp
+NoConn ~ 11675 6775
+NoConn ~ 11675 6875
+NoConn ~ 13625 6775
+NoConn ~ 13625 6875
+Text Label 14525 6775 0    50   ~ 0
+T5_R
+Text Label 14525 6875 0    50   ~ 0
+T6_R
+Text Label 14525 6975 0    50   ~ 0
+T7_R
+Text Label 14525 7075 0    50   ~ 0
+T8_R
+$Comp
+L power:GNDREF #PWR010
+U 1 1 629A7F71
+P 12675 7375
+F 0 "#PWR010" H 12675 7125 50  0001 C CNN
+F 1 "GNDREF" H 12680 7202 50  0000 C CNN
+F 2 "" H 12675 7375 50  0001 C CNN
+F 3 "" H 12675 7375 50  0001 C CNN
+	1    12675 7375
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR012
+U 1 1 629A876D
+P 14625 7375
+F 0 "#PWR012" H 14625 7125 50  0001 C CNN
+F 1 "GNDREF" H 14630 7202 50  0000 C CNN
+F 2 "" H 14625 7375 50  0001 C CNN
+F 3 "" H 14625 7375 50  0001 C CNN
+	1    14625 7375
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	14625 7375 14625 7275
+Wire Wire Line
+	14625 7275 14525 7275
+Wire Wire Line
+	12675 7375 12675 7275
+Wire Wire Line
+	12675 7275 12575 7275
+Wire Wire Line
+	3825 2125 3825 2275
+$Comp
+L Device:CP1_Small C4
+U 1 1 6282CA4B
+P 3825 7425
+F 0 "C4" H 3916 7471 50  0000 L CNN
+F 1 "10uF" H 3916 7380 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" H 3825 7425 50  0001 C CNN
+F 3 "~" H 3825 7425 50  0001 C CNN
+	1    3825 7425
+	1    0    0    -1  
+$EndComp
+Text Label 3775 1575 0    50   ~ 0
+VOUT_Bat_R
+$Comp
+L Connector:Conn_01x02_Male J1
+U 1 1 6293FAE6
+P 1325 1700
+F 0 "J1" H 650 1825 50  0000 C CNN
+F 1 "Conn_01x02_Male" H 950 1725 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x02_P2.54mm_Vertical" H 1325 1700 50  0001 C CNN
+F 3 "~" H 1325 1700 50  0001 C CNN
+	1    1325 1700
+	1    0    0    -1  
+$EndComp
+Text Label 1525 1700 0    50   ~ 0
++Batt_R
+Text Label 1525 1800 0    50   ~ 0
+-Bat_R
+$Comp
+L CLM1C-WKW-CWbXb453:CLM1C-WKW-CWbXb453 LED1
+U 1 1 629C2AEC
+P 13325 4325
+F 0 "LED1" H 13625 4692 50  0000 C CNN
+F 1 "CLM1C-WKW-CWbXb453" H 13625 4601 50  0000 C CNN
+F 2 "CLM1C-WKW-CWbXb453:LEDM3528X205N" H 13825 4475 50  0001 L BNN
+F 3 "https://www.mouser.co.uk/datasheet/2/90/CLM1CWKW_879_-1111128.pdf" H 13825 4375 50  0001 L BNN
+F 4 "Standard LEDs - SMD White SMD" H 13825 4275 50  0001 L BNN "Description"
+F 5 "2.05" H 13825 4175 50  0001 L BNN "Height"
+F 6 "Wolfspeed" H 13825 4075 50  0001 L BNN "Manufacturer_Name"
+F 7 "CLM1C-WKW-CWbXb453" H 13825 3975 50  0001 L BNN "Manufacturer_Part_Number"
+F 8 "941-CLM1CWKWCWBXB453" H 13825 3875 50  0001 L BNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Cree-LED/CLM1C-WKW-CWbXb453?qs=ua4hIysp8dK1ZjpemLQUrQ%3D%3D" H 13825 3775 50  0001 L BNN "Mouser Price/Stock"
+F 10 "CLM1C-WKW-CWBXB453" H 13825 3675 50  0001 L BNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/clm1c-wkw-cwbxb453/cree" H 13825 3575 50  0001 L BNN "Arrow Price/Stock"
+	1    13325 4325
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R7
+U 1 1 629C2AF2
+P 14225 4325
+F 0 "R7" V 14175 4125 50  0000 L CNN
+F 1 "1k" V 14175 4425 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 14225 4325 50  0001 C CNN
+F 3 "~" H 14225 4325 50  0001 C CNN
+	1    14225 4325
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	14125 4325 13925 4325
+Wire Wire Line
+	14325 4325 14575 4325
+Wire Wire Line
+	13075 4325 13325 4325
+Text Label 12575 7175 0    50   ~ 0
+T4_R
+Text Label 12575 7075 0    50   ~ 0
+T3_R
+Text Label 12575 6975 0    50   ~ 0
+T2_R
+Text Label 12575 6875 0    50   ~ 0
+T1_R
+Text Label 12575 6775 0    50   ~ 0
+T0_R
+$Comp
+L SI2312CDS-T1-BE3:SI2312CDS-T1-BE3 Q1
+U 1 1 6295A486
+P 12775 4925
+F 0 "Q1" H 13205 5071 50  0000 L CNN
+F 1 "SI2312CDS-T1-BE3" H 13205 4980 50  0000 L CNN
+F 2 "SI2312CDS-T1-BE3:SOT95P237X112-3N" H 13225 4875 50  0001 L CNN
+F 3 "https://www.vishay.com/docs/65900/si2312cd.pdf" H 13225 4775 50  0001 L CNN
+F 4 "MOSFET N-CHANNEL 20-V (D-S)" H 13225 4675 50  0001 L CNN "Description"
+F 5 "1.12" H 13225 4575 50  0001 L CNN "Height"
+F 6 "Vishay" H 13225 4475 50  0001 L CNN "Manufacturer_Name"
+F 7 "SI2312CDS-T1-BE3" H 13225 4375 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "78-SI2312CDS-T1-BE3" H 13225 4275 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Vishay-Siliconix/SI2312CDS-T1-BE3?qs=CiayqK2gdcJDWhcnuXp08Q%3D%3D" H 13225 4175 50  0001 L CNN "Mouser Price/Stock"
+F 10 "SI2312CDS-T1-BE3" H 13225 4075 50  0001 L CNN "Arrow Part Number"
+F 11 "https://www.arrow.com/en/products/si2312cds-t1-be3/vishay?region=nac" H 13225 3975 50  0001 L CNN "Arrow Price/Stock"
+	1    12775 4925
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:R_Small R6
+U 1 1 6295C84C
+P 12475 5175
+F 0 "R6" H 12325 5075 50  0000 L CNN
+F 1 "10k" H 12275 5175 50  0000 L CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 12475 5175 50  0001 C CNN
+F 3 "~" H 12475 5175 50  0001 C CNN
+	1    12475 5175
+	-1   0    0    1   
+$EndComp
+$Comp
+L power:GNDREF #PWR011
+U 1 1 6295D418
+P 13075 5525
+F 0 "#PWR011" H 13075 5275 50  0001 C CNN
+F 1 "GNDREF" H 13080 5352 50  0000 C CNN
+F 2 "" H 13075 5525 50  0001 C CNN
+F 3 "" H 13075 5525 50  0001 C CNN
+	1    13075 5525
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	13075 4325 13075 4525
+Wire Wire Line
+	12775 4925 12475 4925
+Wire Wire Line
+	12475 5075 12475 4925
+Connection ~ 12475 4925
+Wire Wire Line
+	12475 4925 12175 4925
+Wire Wire Line
+	13075 5525 13075 5375
+Wire Wire Line
+	12475 5275 12475 5375
+Wire Wire Line
+	12475 5375 13075 5375
+Connection ~ 13075 5375
+Wire Wire Line
+	13075 5375 13075 5125
+Text Label 14575 4325 0    50   ~ 0
+5V_R
+$Comp
+L Connector:Conn_01x04_Male J8
+U 1 1 62B848DB
+P 11575 2250
+F 0 "J8" H 11375 2600 50  0000 C CNN
+F 1 "Conn_01x04_Male" H 11675 2500 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x04_P2.54mm_Vertical" H 11575 2250 50  0001 C CNN
+F 3 "~" H 11575 2250 50  0001 C CNN
+	1    11575 2250
+	1    0    0    -1  
+$EndComp
+Text Label 12575 2350 0    50   ~ 0
+I2C_SCL_R
+Text Label 12575 2450 0    50   ~ 0
+I2C_SDA_R
+Text Notes 11825 1450 0    79   ~ 0
+MPU6050
+Text Notes 13775 6425 0    79   ~ 0
+CONN DITS
+Text Notes 11775 6425 0    79   ~ 0
+CONN POLZE
+Text Notes 12925 3825 0    79   ~ 0
+LED-W
+Text Notes 2375 6675 0    79   ~ 0
+REGULADOR 3V3\n
+Text Notes 2425 4125 0    79   ~ 0
+BATT STEP UP\n
+Text Notes 2525 2925 0    79   ~ 0
+SW ON/OFF\n
+Text Notes 1475 1225 0    79   ~ 0
+BATTERY CONN\n
+Text Notes 3025 1225 0    79   ~ 0
+BATTERY MANAGER\n
+Wire Wire Line
+	6150 2550 6150 2650
+Connection ~ 6150 2550
+Wire Wire Line
+	6150 2450 6150 2550
+$Comp
+L Device:R_Small R1
+U 1 1 61A94255
+P 6150 2350
+F 0 "R1" H 6350 2400 50  0000 R CNN
+F 1 "10k" H 6350 2300 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 2350 50  0001 C CNN
+F 3 "~" H 6150 2350 50  0001 C CNN
+	1    6150 2350
+	1    0    0    -1  
+$EndComp
+Wire Wire Line
+	6150 3300 6150 3350
+Wire Wire Line
+	6150 2900 6150 2850
+Wire Wire Line
+	6625 1950 7175 1950
+$Comp
+L Device:R_Small R2
+U 1 1 61A94266
+P 6150 2750
+F 0 "R2" H 6350 2800 50  0000 R CNN
+F 1 "470R" H 6400 2700 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 6150 2750 50  0001 C CNN
+F 3 "~" H 6150 2750 50  0001 C CNN
+	1    6150 2750
+	1    0    0    -1  
+$EndComp
+$Comp
+L Switch:SW_Push SW1
+U 1 1 61A9426C
+P 6150 3100
+F 0 "SW1" H 6150 3385 50  0000 C CNN
+F 1 "SW_Push" H 6150 3294 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 6150 3300 50  0001 C CNN
+F 3 "~" H 6150 3300 50  0001 C CNN
+	1    6150 3100
+	0    1    1    0   
+$EndComp
+Wire Wire Line
+	6325 1650 6375 1650
+Connection ~ 6625 1950
+Wire Wire Line
+	6625 1650 6625 1950
+Wire Wire Line
+	6575 1650 6625 1650
+NoConn ~ 7175 3450
+NoConn ~ 7175 3550
+NoConn ~ 7175 3650
+NoConn ~ 7175 3750
+NoConn ~ 7175 3850
+NoConn ~ 7175 3950
+Connection ~ 8825 1850
+Wire Wire Line
+	8825 1850 9325 1850
+Wire Wire Line
+	8825 1750 8825 1850
+Wire Wire Line
+	8825 1450 8825 1550
+Wire Wire Line
+	8675 1850 8825 1850
+$Comp
+L Device:R_Small R3
+U 1 1 61A94296
+P 8825 1650
+F 0 "R3" H 8766 1604 50  0000 R CNN
+F 1 "10k" H 8766 1695 50  0000 R CNN
+F 2 "Resistor_SMD:R_0805_2012Metric_Pad1.15x1.40mm_HandSolder" H 8825 1650 50  0001 C CNN
+F 3 "~" H 8825 1650 50  0001 C CNN
+	1    8825 1650
+	-1   0    0    1   
+$EndComp
+$Comp
+L ESP32-WROOM-32D__4MB_:ESP32-WROOM-32D__4MB_ IC2
+U 1 1 61A942B1
+P 7175 1850
+F 0 "IC2" H 7925 2115 50  0000 C CNN
+F 1 "ESP32-WROOM-32D__4MB_" H 7925 2024 50  0000 C CNN
+F 2 "ESP32-WROOM-32D__4MB_:ESP32WROOM32D4MB" H 8525 1950 50  0001 L CNN
+F 3 "https://componentsearchengine.com/Datasheets/1/ESP32-WROOM-32D (4MB).pdf" H 8525 1850 50  0001 L CNN
+F 4 "WiFi Modules (802.11) SMD Module, ESP32-D0WD, 32Mbits SPI flash, UART mode, PCB antenna" H 8525 1750 50  0001 L CNN "Description"
+F 5 "3.2" H 8525 1650 50  0001 L CNN "Height"
+F 6 "Espressif Systems" H 8525 1550 50  0001 L CNN "Manufacturer_Name"
+F 7 "ESP32-WROOM-32D (4MB)" H 8525 1450 50  0001 L CNN "Manufacturer_Part_Number"
+F 8 "356-ESP32WROOM-32D" H 8525 1350 50  0001 L CNN "Mouser Part Number"
+F 9 "https://www.mouser.co.uk/ProductDetail/Espressif-Systems/ESP32-WROOM-32D-4MB?qs=GBLSl2AkirvkALo4fyKM5Q%3D%3D" H 8525 1250 50  0001 L CNN "Mouser Price/Stock"
+F 10 "" H 8525 1150 50  0001 L CNN "Arrow Part Number"
+F 11 "" H 8525 1050 50  0001 L CNN "Arrow Price/Stock"
+	1    7175 1850
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C5
+U 1 1 61A942B7
+P 6475 1650
+F 0 "C5" V 6225 1500 50  0000 L CNN
+F 1 "100uF" V 6325 1500 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-15_AVX-H" H 6475 1650 50  0001 C CNN
+F 3 "~" H 6475 1650 50  0001 C CNN
+	1    6475 1650
+	0    1    1    0   
+$EndComp
+NoConn ~ 7175 2150
+NoConn ~ 7175 2250
+NoConn ~ 7175 2350
+NoConn ~ 7175 2450
+NoConn ~ 7175 2550
+NoConn ~ 7175 2750
+NoConn ~ 7175 2850
+NoConn ~ 7175 3350
+NoConn ~ 7175 3150
+Wire Wire Line
+	7175 2050 6625 2050
+Wire Wire Line
+	6625 2050 6625 2550
+Wire Wire Line
+	6150 2550 6625 2550
+Text Label 7825 4950 2    50   ~ 0
+GND_R
+Text Label 8675 2850 0    50   ~ 0
+TX1_R
+Text Label 8675 2750 0    50   ~ 0
+RX1_R
+Text Label 7825 5050 2    50   ~ 0
+RX1_R
+Text Label 7825 5150 2    50   ~ 0
+TX1_R
+Text Label 8675 2950 0    50   ~ 0
+I2C_SCL_R
+Text Label 8675 2650 0    50   ~ 0
+I2C_SDA_R
+NoConn ~ 8675 3050
+NoConn ~ 8675 2450
+NoConn ~ 8675 2350
+NoConn ~ 8675 2250
+NoConn ~ 8675 1950
+NoConn ~ 7175 3050
+NoConn ~ 7175 2950
+$Comp
+L Connector:Conn_01x03_Female J6
+U 1 1 63537F77
+P 8025 5050
+F 0 "J6" H 7800 5400 50  0000 L CNN
+F 1 "Conn_01x03_Female" H 7800 5300 50  0000 L CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x03_P2.54mm_Vertical" H 8025 5050 50  0001 C CNN
+F 3 "~" H 8025 5050 50  0001 C CNN
+	1    8025 5050
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR08
+U 1 1 63538AF4
+P 6150 3350
+F 0 "#PWR08" H 6150 3100 50  0001 C CNN
+F 1 "GNDREF" H 6155 3177 50  0000 C CNN
+F 2 "" H 6150 3350 50  0001 C CNN
+F 3 "" H 6150 3350 50  0001 C CNN
+	1    6150 3350
+	1    0    0    -1  
+$EndComp
+$Comp
+L power:GNDREF #PWR09
+U 1 1 63539854
+P 6325 1650
+F 0 "#PWR09" H 6325 1400 50  0001 C CNN
+F 1 "GNDREF" H 6330 1477 50  0000 C CNN
+F 2 "" H 6325 1650 50  0001 C CNN
+F 3 "" H 6325 1650 50  0001 C CNN
+	1    6325 1650
+	0    1    1    0   
+$EndComp
+Text Notes 7800 1225 0    79   ~ 0
+MCU
+Text Notes 7500 4600 0    79   ~ 0
+SERIAL PROGR
+Text Notes 5800 3125 0    79   ~ 0
+RES
+Text Notes 9375 2025 0    79   ~ 0
+BOOT
+$Comp
+L Connector:Conn_01x06_Male J11
+U 1 1 5FD18417
+P 14275 2375
+F 0 "J11" H 14725 2875 50  0000 R CNN
+F 1 "Conn_01x06_Male" H 14725 2725 50  0000 R CNN
+F 2 "Connector_PinHeader_2.54mm:PinHeader_1x06_P2.54mm_Vertical" H 14275 2375 50  0001 C CNN
+F 3 "~" H 14275 2375 50  0001 C CNN
+	1    14275 2375
+	-1   0    0    -1  
+$EndComp
+NoConn ~ 14075 2575
+Text Label 14925 2175 0    50   ~ 0
+T8_R
+Text Label 14925 2275 0    50   ~ 0
+T7_R
+Text Label 14925 2375 0    50   ~ 0
+T6_R
+Text Label 14925 2475 0    50   ~ 0
+T5_R
+Text Label 14925 2575 0    50   ~ 0
+T4_R
+Text Label 14925 2675 0    50   ~ 0
+T3_R
+Text Label 14925 2775 0    50   ~ 0
+T2_R
+Text Label 14925 2875 0    50   ~ 0
+T1_R
+Text Label 14925 2975 0    50   ~ 0
+T0_R
+Text Label 14075 2175 2    50   ~ 0
+3V3_R
+Text Label 14075 2675 2    50   ~ 0
+GND_R
+Text Notes 14200 1450 0    79   ~ 0
+MPR121
+Text Label 8825 1450 0    50   ~ 0
+3V3_R
+Text Label 6150 1950 2    50   ~ 0
+3V3_R
+Wire Wire Line
+	6150 1950 6625 1950
+Wire Wire Line
+	6150 1950 6150 2250
+Text Label 14075 2375 2    50   ~ 0
+I2C_SCL_R
+Text Label 14075 2475 2    50   ~ 0
+I2C_SDA_R
+Text Label 14075 2275 2    50   ~ 0
+I2C_IRQ_R
+Text Label 7175 4050 2    50   ~ 0
+I2C_IRQ_R
+NoConn ~ 7175 2650
+Text Label 9725 1850 0    50   ~ 0
+GND_R
+NoConn ~ 8675 2050
+NoConn ~ 8675 2150
+$Comp
+L Switch:SW_Push SW2
+U 1 1 635FA10E
+P 9525 1850
+F 0 "SW2" H 9525 2135 50  0000 C CNN
+F 1 "SW_Push" H 9525 2044 50  0000 C CNN
+F 2 "Button_Switch_SMD:SW_SPST_CK_RS282G05A3" H 9525 2050 50  0001 C CNN
+F 3 "~" H 9525 2050 50  0001 C CNN
+	1    9525 1850
+	1    0    0    -1  
+$EndComp
+Text Label 7175 4150 2    50   ~ 0
+GPIO2_R
+Text Label 12175 4925 2    50   ~ 0
+GPIO2_R
+Text Label 8675 3150 0    50   ~ 0
+GND_R
+Text Label 7175 3250 2    50   ~ 0
+GND_R
+Text Label 7175 1850 2    50   ~ 0
+GND_R
+Text Label 8675 3250 0    50   ~ 0
+GND_R
+Text Label 8675 3350 0    50   ~ 0
+GND_R
+Text Label 8675 3450 0    50   ~ 0
+GND_R
+Text Label 8675 3550 0    50   ~ 0
+GND_R
+Text Label 8675 3650 0    50   ~ 0
+GND_R
+Text Label 8675 3750 0    50   ~ 0
+GND_R
+Text Label 8675 3850 0    50   ~ 0
+GND_R
+Text Label 8675 3950 0    50   ~ 0
+GND_R
+Text Label 8675 4050 0    50   ~ 0
+GND_R
+NoConn ~ 14525 7175
+$Comp
+L Connector:Conn_01x09_Male J7
+U 1 1 635B2CB1
+P 14725 2575
+F 0 "J7" H 14750 3225 50  0000 C CNN
+F 1 "Conn_01x09_Male" H 15025 3125 50  0000 C CNN
+F 2 "Connector_PinSocket_2.54mm:PinSocket_1x09_P2.54mm_Vertical" H 14725 2575 50  0001 C CNN
+F 3 "~" H 14725 2575 50  0001 C CNN
+	1    14725 2575
+	1    0    0    -1  
+$EndComp
+$Comp
+L Device:CP1_Small C2
+U 1 1 63AEEE7D
+P 3325 5225
+F 0 "C2" H 3416 5271 50  0000 L CNN
+F 1 "47uF" H 3416 5180 50  0000 L CNN
+F 2 "Capacitor_Tantalum_SMD:CP_EIA-3528-21_Kemet-B_Pad1.50x2.35mm_HandSolder" H 3325 5225 50  0001 C CNN
+F 3 "~" H 3325 5225 50  0001 C CNN
+	1    3325 5225
+	1    0    0    -1  
+$EndComp
+$EndSCHEMATC

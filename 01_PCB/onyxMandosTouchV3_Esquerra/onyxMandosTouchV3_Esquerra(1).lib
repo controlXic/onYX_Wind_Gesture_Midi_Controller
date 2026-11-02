@@ -1,0 +1,47 @@
+EESchema-LIBRARY Version 2.4
+#encoding utf-8
+#
+# 200529-0060_200529-0060
+#
+DEF 200529-0060_200529-0060 J 0 30 Y Y 1 F N
+F0 "J" 750 300 50 H V L CNN
+F1 "200529-0060_200529-0060" 750 200 50 H V L CNN
+F2 "2005290060" 750 100 50 H I L CNN
+F3 "https://componentsearchengine.com/Datasheets/1/200529-0060.pdf" 750 0 50 H I L CNN
+F4 "MOLEX - 200529-0060 - CONNECTOR, FFC/FPC, 6POS, 1ROW, 1MM" 750 -100 50 H I L CNN "Description"
+F5 "2.1" 750 -200 50 H I L CNN "Height"
+F6 "Molex" 750 -300 50 H I L CNN "Manufacturer_Name"
+F7 "200529-0060" 750 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "538-200529-0060" 750 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Molex/200529-0060?qs=IvjI65BR3TVInXqKXqpjBg%3D%3D" 750 -600 50 H I L CNN "Mouser Price/Stock"
+DRAW
+P 5 0 1 6 200 100 700 100 700 -600 200 -600 200 100 N
+X 1 1 900 0 200 L 50 50 0 0 P
+X 2 2 900 -100 200 L 50 50 0 0 P
+X 3 3 900 -200 200 L 50 50 0 0 P
+X 4 4 900 -300 200 L 50 50 0 0 P
+X 5 5 900 -400 200 L 50 50 0 0 P
+X 6 6 900 -500 200 L 50 50 0 0 P
+X MP1 MP1 0 0 200 R 50 50 0 0 P
+X MP2 MP2 0 -100 200 R 50 50 0 0 P
+ENDDRAW
+ENDDEF
+#
+# Connector_Conn_01x01_Male
+#
+DEF Connector_Conn_01x01_Male J 0 40 Y N 1 F N
+F0 "J" 0 100 50 H V C CNN
+F1 "Connector_Conn_01x01_Male" 0 -100 50 H V C CNN
+F2 "" 0 0 50 H I C CNN
+F3 "" 0 0 50 H I C CNN
+$FPLIST
+ Connector*:*
+$ENDFPLIST
+DRAW
+S 34 5 0 -5 1 1 6 F
+P 2 1 1 6 50 0 34 0 N
+X Pin_1 1 200 0 150 L 50 50 1 1 P
+ENDDRAW
+ENDDEF
+#
+#End Library

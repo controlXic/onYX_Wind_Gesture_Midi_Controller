@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "onyxMandosV3_Esquerra-rescue")(type "KiCad")(uri "${KIPRJMOD}/onyxMandosV3_Esquerra-rescue.kicad_sym")(options "")(descr ""))
+)
