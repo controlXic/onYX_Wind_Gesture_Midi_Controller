@@ -17,6 +17,11 @@ It consists of 4 pieces:
 
 OnYX has been designed as a complete and versatile wind controller, allowing you to control everything that other keyboard-type controllers have allowed for years by including knobs, faders, joysticks and pads.
 
+
+Device    
+<img src="docs/conjunt.png" alt="System Architecture" width="700">  
+
+
 ### In this sense, the main functions of OnYX include:
 
 * Playing notes as if it was a traditional wind controller, with saxophone / flute type fingerings, and with up to 6 octaves of register (4 of them using the octave buttons on the left thumb, and 2 more using very intuitive and easy-to-master alternate fingerings).
