@@ -18,7 +18,7 @@ It consists of 4 pieces:
 OnYX has been designed as a complete and versatile wind controller, allowing you to control everything that other keyboard-type controllers have allowed for years by including knobs, faders, joysticks and pads.
 
 
-## Device:    
+### Device:    
 <img src="docs/conjunt.png" alt="System Architecture" width="700">  
 
 
